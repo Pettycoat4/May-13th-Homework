@@ -1,0 +1,101 @@
+body {
+	background: #fff;
+	max-width: 900px;
+	margin:0 auto;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width:900px;
+
+}
+
+#logo {
+	background-image: url(img/acme-logo.png);
+	background-repeat: no-repeat;
+	/*background-size: 100px 100px;*/
+	height:300px;
+	margin-top: 50px;
+	display: block;
+}
+
+#nav {
+	float:right;
+	margin-top: 50px;
+	margin-right: 10%;
+}
+
+#nav li {
+	display: inline-block;
+	margin-right: 25px;
+	font-family: Arial;
+	font-size: 29px;
+	color: #aea9a4;
+}
+
+img {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.column {
+	float:left;
+	width:40%;
+	margin-left: 2%;
+
+}
+
+.column p {
+	font-family: arial;
+	color: #aea9a4;
+	font-size: 12px;
+	text-align: justify;
+
+}
+
+h2 {
+	font-family: arial;
+	color: #aea9a4;
+	font-size: 30px;
+}
+
+/*THESE ARE THE MEDIA QUERIES*/
+
+
+
+
+@media all and (max-width: 400px) {
+.column {
+	display:block;
+	clear:both;
+}
+
+img {
+	display: none;
+}
+#nav {
+	float:left;
+	
+/*	display: block;*/
+	margin-top: 70px;
+	margin-left: -3%;
+}
+
+#nav li {
+	display: block;
+	margin-right: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
